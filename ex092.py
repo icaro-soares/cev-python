@@ -12,7 +12,11 @@ dados['idade'] = date.today().year - nasc
 dados['ctps'] = int(input('Nº da CTPS: '))
 if dados['ctps'] != 0:
     dados['contratação'] = int(input('Ano de contratação: '))
+    dados['idade_contratação'] = dados['contratação'] - nasc
     dados['salário'] = float(input('Salário: R$ '))
+    
 print('-='*30)
 for k, v in dados.items():
     print(f'{k}: {v}')
+print('-='*30)
+
