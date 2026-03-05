@@ -1,18 +1,22 @@
+'''DocString for adivinhacao.py
+Tata-se de um jogo de adivinhacao onde o usuário tenta adivinhar um número "pensado" pela máquina.
+No começo escolhe a dificuldade, que determinará o número de chances do usuário.
+O sistema de pontos será determinado pela diferença entre o chute e o número secreto subtraído da pontuação atual. O programa será encerrado caso o chute seja igual ao número secreto, caso as chances chegem a zero ou que a pontução chegue a zero.
+No fim o usuário é questionado se irá reiniciar o programa. Em caso negativo o programa fecha.
+'''
+
 import os
 from random import randint
 from time import sleep
 
 while True:
-
     número_secreto = randint(0, 100)
     tentativas = 0
     pontos = 1000 #pontuação será subtração da diferença entre o chute e o número secreto
     acertou = False
-
     print('-='*30)
     print(f'{"Jogo da adivinhação":^60}')
     print('-='*30)
-
     dificuldade = int(input('Escolha a dificuldade [1 - Fácil][2 - Médio][3 - Difícil]: '))
     match dificuldade:
         case 1:
@@ -27,13 +31,10 @@ while True:
         case _:
             print('Comando desconhecido, reinicie o programa e tente novamente!')
             exit()
-
     while not acertou:
-
         chute = int(input('Diga seu chute: '))
         tentativas+=1
         chances-=1
-
         if chute == número_secreto:
             print('Você acertou!')
             print(f'Número de tentativas: {tentativas}')
@@ -50,7 +51,6 @@ while True:
                 pontos = 0
                 break
     print(f'Pontuação final: {pontos}')
-
     resp = ' '
     while resp not in 'SsNn':
         resp = str(input('Quer jogar de novo [S/N]? ')).strip()[0]
