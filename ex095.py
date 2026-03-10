@@ -11,6 +11,7 @@ while True:
     for c in range(0, partidas):
         gols.append(int(input(f'Gols na partida {c+1}: ')))
     jogador['gols'] = gols[:]
+    jogador['total'] = sum(gols)
     fichas.append(jogador.copy())
     while True:
         resp = str(input('Quer continuar [S/N]: '))[0]
