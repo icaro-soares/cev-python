@@ -20,4 +20,3 @@ while True:
     if resp in 'Nn':
         break
 print('-='*30)
-print(fichas)
