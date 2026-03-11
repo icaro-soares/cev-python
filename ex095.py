@@ -2,18 +2,18 @@
 Aprimore o desafio 093 para que ele funcione com vários jogadores, incluindo um sistema de visualização de detalhes do aproveitamento de cada jogador
 """
 jogador = {}
-gol = []
+partidas = []
 time = []
 
 while True:
 
     jogador.clear()
     jogador['nome'] = str(input('Nome: '))
-    part = int(input(f'Quantas partidas {jogador["nome"]} jogou? '))
-    for c in range(0, part):
-        gol.append(int(input(f'Gols na partida {c+1}: ')))
-    jogador['gols'] = gol[:]
-    jogador['total'] = sum(gol)
+    tot = int(input(f'Quantas partidas {jogador["nome"]} jogou? '))
+    for c in range(0, tot):
+        partidas.append(int(input(f'Gols na partida {c+1}: ')))
+    jogador['gols'] = partidas[:]
+    jogador['total'] = sum(partidas)
     time.append(jogador.copy())
 
     while True:
