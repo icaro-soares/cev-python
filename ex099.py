@@ -1,0 +1,4 @@
+"""
+Faça um programa que tenha uma função chamada maior(), que receba vários valores inteiros com parâmetro.
+Seu programa tem que analisar todos os valores e dizer qual deles é o maior.
+"""
