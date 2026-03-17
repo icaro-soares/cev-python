@@ -21,3 +21,8 @@ def contador(i=1, f=10, p=1):
 
 contador(1, 10, 1)
 contador(10, 0, 2)
+print('Agora é sua vez!')
+inicio = int(input('Início: '))
+fim = int(input('Fim: '))
+passo = int(input('Passo: '))
+contador(inicio, fim, passo) 
