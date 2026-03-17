@@ -12,5 +12,14 @@ def sorteia(lista):
     print(f'Seus números foram {lista}')
 
 
+def somaPar(soma_pares, lista):
+    for n in lista:
+        if n%2==0:
+            soma_pares.append(n)
+    print(f'A soma dos valores pares é {sum(soma_pares)}')
+
+
 números = []
 sorteia(números)
+npares = []
+somaPar(npares, números)
