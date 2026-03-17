@@ -5,7 +5,12 @@ Seu programa tem que analisar todos os valores e dizer qual deles é o maior.
 
 
 def maior(*num):
-    print(f'O maior valor é {max(num)}')
+    print('Analisando os valores passados...')
+    print('Foram passados os valores ', end='')
+    for n in num:
+        print(f'{n} ', end='')
+    print(f'\nO maior valor é {max(num)}')
+    print('-='*20)
 
 
 maior(7, 5, 3)
