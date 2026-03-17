@@ -7,6 +7,10 @@ c) Uma contagem personalizada
 
 
 def contador(i=1, f=10, p=1):
+    if p < 0:
+        p *= -1
+    if p == 0:
+        p = 1
     if i < f:
         while i <= f:
             print(f'{i} ', end='')
