@@ -13,7 +13,7 @@ def voto(nascimento):
     if idade <= 15:
         permitido = 'Negado'
         return permitido
-    elif idade == 16 or idade == 17 or idade >= 65:
+    elif 16 <= idade <= 17 or idade >= 65:
         permitido = 'Opcional'
         return permitido
     else:
@@ -21,9 +21,9 @@ def voto(nascimento):
         return permitido
 
 
+help(voto)
 ano_nascimento = int(input('Ano de nascimento: '))
 situação = voto(ano_nascimento)
 idade = datetime.now().year - ano_nascimento
 print(f'Sua idade é {idade} anos.')
 print(f'Situação de voto: {situação}')
-help(voto)
