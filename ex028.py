@@ -1,6 +1,3 @@
-"""Escreva um programa que faça o computador 'pensar' em um número entre
-0 e 5 e tente adivinha-lo. O programa deverá escrever se você acertous ou
-derrou"""
 from random import randint
 
 

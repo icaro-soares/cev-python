@@ -1,5 +1,3 @@
-"""Faça um programa que leia um ano qualquer e diga se ele é
-bissexto ou não"""
 from datetime import date
 
 

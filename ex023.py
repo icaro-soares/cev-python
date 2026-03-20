@@ -1,5 +1,3 @@
-"""Faça um programa que leia um número de 0 a 9999 e mostre
-na tela cada dígito separado. unidade: 9 dezena: 8 centena: 7 milhar: 6"""
 num = int(input('Digite um número [0 a 9999]: '))
 u = num // 1 % 10
 d = num // 10 % 10
