@@ -1,4 +1,3 @@
-"""Faça um programa que faça o computador jogar Jokenpô com você"""
 from random import randint
 
 itens = ('pedra', 'papel', 'tesoura')

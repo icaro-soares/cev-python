@@ -1,8 +1,3 @@
-"""Refaça o desafio 035 dos triângulos acrescentando o recurso de mostrar que
-tipo de triângulo será formado:
-Equilátero: todos os lados iguais
-Isóceles: Dois lados iguais
-Escaleno: Todos os lados diferentes"""
 r1 = float(input('1º lado: '))
 r2 = float(input('2º lado: '))
 r3 = float(input('3º lado: '))
