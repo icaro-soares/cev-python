@@ -1,8 +1,3 @@
-"""
-Docstring for ex010
-Crie um programa que leia quanto dinheiro uma pessoa tem na carteira
-e mostre quantos dólares ela pode comprar.
-"""
 carteira = float(input('Quantos reais têm na carteira? R$'))
 dólar = carteira/5.38
 euro = carteira/6.28

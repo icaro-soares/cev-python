@@ -1,8 +1,3 @@
-"""
-Docstring for ex009
-Faça um programa que leia um número inteiro
-qualquer e mostre a sua tabuada
-"""
 número = int(input('Digite um número: '))
 print('-'*20)
 print(f'{número:<2} x {1:2} = {número*1:>2}')

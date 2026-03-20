@@ -1,9 +1,3 @@
-"""
-Docstring for ex008
-Escreva um programa que leia um valor em metros
-e o exiba convertido em centímetros e
-milímetros
-"""
 metros = float(input('Digite um valor em metros (m): '))
 km = metros / 1000
 hm = metros / 100
