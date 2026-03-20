@@ -1,10 +1,3 @@
-"""
-Docstring for ex087
-Aprimore o desafio anterior, mostrando no final:
-a) A soma de todos os valores pares
-b) A soma dos valores da terceira coluna
-c) O maior valor da segunda coluna
-"""
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 somapar = scol = mai = 0
 for l in range(0, 3):

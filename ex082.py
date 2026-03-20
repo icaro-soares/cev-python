@@ -1,10 +1,3 @@
-"""
-Docstring for ex082
-Crie um programa que leia vários valores e coloque
-em uma lista. Depois disso crie duas listas extras.
-Elas vão conter apenas valores pares e outra os
-ímpares. No final mostre as 3 listas.
-"""
 princ = []
 par = []
 impar = []

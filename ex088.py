@@ -1,10 +1,3 @@
-"""
-Docstring for ex088
-Crie um programa que gere palpites da mega sena.
-O programa vai perguntar quantos jogos devem ser gerados,
-e vai sortear números entre 0 e 60 para cada jogos
-cadastrando-os em uma lista composta.
-"""
 from random import randint
 from time import sleep
 
