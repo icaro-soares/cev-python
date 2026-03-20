@@ -1,12 +1,3 @@
-"""
-Crie um programa que leia a idade e o sexo
-de várias pessoas. A cada pessoa cadastrada o
-programa deverá perguntar se o usuário quer
-continuar. No final mostre:
-- Quantas pessoas têm mais de dezoito anos;
-- Quantos homens foram cadastrados;
-- Quantas mulheres têm menos de vinte anos;
-"""
 total_18 = tot_h = menos_20 = 0
 while True:
     idade = int(input('Idade: '))

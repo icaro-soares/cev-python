@@ -1,11 +1,3 @@
-"""
-Crie um programa que leia o nome e o preço de vários
-produtos. O programa deve perguntar se o usuário quer
-ou não continuar. No final mostre:
-- Qual é o total gasto na compra;
-- Quantos produtos custam mais de mil;
-- Qual o nome do produto mais barato;
-"""
 total = mais_1000 = barato = c = 0
 nome_barato = ' '
 while True:

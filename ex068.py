@@ -1,10 +1,3 @@
-"""
-Faça um programa que jogue par ou ímpar
-com o computador. O jogo será interrompido
-quando o jogador perder. No final mostre
-quantas vitórias consecutivas o jogador
-teve.
-"""
 from random import randint
 
 v = 0

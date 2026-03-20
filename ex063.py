@@ -1,6 +1,3 @@
-"""Escreva um programa que leia um número n inteiro qualquer e mostre na tela
-os n primeiros elementos de uma sequência de Fibonacci
-ex: 0 1 1 2 3 5 8"""
 termos = int(input('Quantos termos devo mostrar: '))
 t1 = 0
 t2 = 1

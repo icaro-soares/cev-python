@@ -1,8 +1,3 @@
-"""
-Faça um programa que mostre a tabuada de vários números.
-O programa será interrompido quando um valor negativo
-for digitado
-"""
 while True:
     n = int(input('Digite um número para ver sua tabuada: '))
     if n < 0:

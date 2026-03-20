@@ -1,5 +1,3 @@
-"""Faça um programa que leia um número inteiro e diga se ele é ou não um
-número primo, divisível po 1 e ele mesmo"""
 n = int(input('Número: '))
 divisores = 0
 print(f'Os divisores de {n} são: ', end='')

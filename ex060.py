@@ -1,4 +1,3 @@
-"""Faça um programa que leia um número qualquer e mostre o seu fatorial"""
 #Usando o while
 m = 1
 n = int(input('Digite um número: '))
