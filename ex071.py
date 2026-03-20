@@ -1,9 +1,3 @@
-"""
-Crie um programa que simule um caixa eletrônico.
-No início pergunte quanto o usuário quer sacar.
-O programa vai informar quantas cédulas serão entregues.
-Considere cédulas de R$50, R$20, R$10, R$1
-"""
 valor = int(input('Qual valor a sacar: R$'))
 total = valor
 cédulas = 100

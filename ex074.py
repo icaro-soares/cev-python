@@ -1,8 +1,3 @@
-"""
-Crie um programa que gere cinco números aleatórios e guarde-os em uma tupla.
-Depois disso mostre uma listagem com os números gerados e também indique o
-maior e o menor valor.
-"""
 from random import randint
 
 n = (

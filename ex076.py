@@ -1,8 +1,3 @@
-"""
-Crie um programa que tenha uma tupla única com nomes de produtos e seus preços
-respectivamente em sequência. No final mostre uma listagem de preços organizando
-os dados de forma tabular
-"""
 produtos = (
         'TV', 2_000,
         'Home Theater', 2_900,

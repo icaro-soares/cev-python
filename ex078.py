@@ -1,11 +1,3 @@
-"""
-Docstring for ex078
-Crie uma lista que leia 5 valores numéricos.
-No final mostre o maior e o menor valor e suas
-posições.
-"""
-from rich import print
-
 #criação automática
 lista1 = list(range(0, 5)) 
 print(f'Sua lista: {lista1}')
