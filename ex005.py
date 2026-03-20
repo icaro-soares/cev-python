@@ -1,8 +1,3 @@
-"""
-Docstring for ex005
-Faça um programa que leia um número Inteiro e mostre
-na tela seu sucessor e seu antecessor.
-"""
 número = int(input('Digite um número: '))
 ant = número - 1
 suc = número + 1

@@ -1,8 +1,3 @@
-"""
-Docstring for ex004
-Faça um programa que leia algo pelo teclado e mostre na tela seu tipo
-primitivo e todas as informações sobre ela
-"""
 algo = input('Digite algo: ')
 print(type(algo))
 print(f'É um número? {algo.isnumeric()}')
