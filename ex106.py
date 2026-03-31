@@ -1,4 +1,14 @@
-"""
-Faça um mini-sitema que utilize o Interactive Help do python. O usuário vai digitar o comando e o manual vai aparecer. Quanto o usuário digitar a palavra FIM o programa se encerrará.
-OBS.: Use cores.
-"""
+from rich import print
+from time import sleep
+
+
+print('Bem vindo ao [blue]Interactive Help[/blue]!')
+comando = ' '
+while True:
+    if comando != 'fim':
+        comando = str(input('Digite um comando: ')).strip()
+        help(comando)
+    else:
+        print('[red]Encerrando aplicação...[/red]')
+        sleep(2)
+        break
